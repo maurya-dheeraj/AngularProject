@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    border-radius: 27px!important;
+}
+
+
+.mat-form-field-underline {
+    /*position: absolute;
+    */width: 100%;
+    pointer-events: none;
+    /*color: red;
+    */transform: scale3d(0.88, 1.0001, 2)!important;
+}
+.mat-form-field-infix {
+    padding: 0.5em 0;
+    border-top: 0.64375em solid transparent;
+}
