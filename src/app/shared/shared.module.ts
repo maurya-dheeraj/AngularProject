@@ -6,6 +6,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { NgOtpInputModule } from  'ng-otp-input';
 
 import { SharedRoutingModule } from './shared-routing.module';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
@@ -31,6 +32,7 @@ import { CommanModule } from '../comman/comman.module';
     MatIconModule,
     MatInputModule,
     MatCheckboxModule,
+    NgOtpInputModule
     
     
   ]
