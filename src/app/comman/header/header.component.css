@@ -3,5 +3,18 @@
     height: 75px;
     position: fixed;
     left: 20%;
+    z-index: 999 ;
     background-color: blue;
 }
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar-row, .mat-toolbar-single-row {
+    height: 75px;
+  }
+
+  .person-btn{
+    margin-left:40px!important;
+  }

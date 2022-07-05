@@ -12,5 +12,21 @@
 </head>
 <body class="mat-typography">
   <app-root></app-root>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script  type="text/javascript">
+    //  $('#nav-btn').click(function(){
+    //     $("#left-sidebar").hide();      
+    // })
+
+    $(document).ready(function(){
+    $("#nav-btn").click(function() {
+         $("#left-sidebar").toggle();
+     });
+    });
+
+  </script>
+
 </body>
 </html>

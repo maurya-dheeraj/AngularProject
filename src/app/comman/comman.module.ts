@@ -5,8 +5,11 @@ import { CommanRoutingModule } from './comman-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
-
-
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatMenuModule} from '@angular/material/menu';
 @NgModule({
   declarations: [
   
@@ -16,7 +19,12 @@ import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
   ],
   imports: [
     CommonModule,
-    CommanRoutingModule
+    CommanRoutingModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    MatBadgeModule,
+    MatMenuModule
   ],
 
   exports:[

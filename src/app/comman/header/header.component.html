@@ -1,3 +1,40 @@
 <div id="header">
-    
+    <mat-toolbar>
+        <button id="nav-btn"  mat-icon-button class="example-icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span class="example-spacer"></span>
+   
+        <button mat-icon-button class="example-icon" >
+          <mat-icon matBadge="15" matBadgeColor="warn">notifications</mat-icon>
+        </button>
+        
+
+
+
+        <button mat-icon-button class="ms-3" [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>person</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <mat-icon>dialpad</mat-icon>
+              <span>Profile</span>
+            </button>
+            <button mat-menu-item >
+              <mat-icon>settings</mat-icon>
+              <span>Account Settings</span>
+            </button>
+            <button mat-menu-item>
+              <mat-icon>notifications_off</mat-icon>
+              <span>Disable Alerts</span>
+            </button>
+
+            <button mat-menu-item>
+                <mat-icon>exit_to_app</mat-icon>
+                <span>Sign Out</span>
+              </button>
+          </mat-menu>
+
+
+      </mat-toolbar>
 </div>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import {MatDialog} from '@angular/material/dialog';
+import { AngularModalComponent } from 'src/app/modals/angular-modal/angular-modal.component';
 @Component({
   selector: 'app-reset-password',
   templateUrl: './reset-password.component.html',
@@ -10,7 +11,11 @@ export class ResetPasswordComponent implements OnInit {
   hide1 = true;
 
 
-  constructor() { }
+  constructor(public dialog: MatDialog) {}
+
+  openDialog() {
+    this.dialog.open(AngularModalComponent);
+  }
 
   ngOnInit(): void {
   }
