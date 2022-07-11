@@ -1,6 +1,51 @@
-#left-sidebar{
+#left-sidebar {
     width: 20%;
     height: 100vh;
     position: fixed;
-    background-color: skyblue;
+    background-color: #222a45;
+}
+
+.logo {
+    height: 75px;
+    padding: 21px 20px;
+    margin: 0;
+    background: #222a45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.logo h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.bi {
+    font-size: 18px;
+}
+
+hr {
+    color: lightgray;
+    height: 1px;
+    margin: 0px;
+}
+
+.profile {
+    padding: 15px 0px;
+    height: 160px;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
