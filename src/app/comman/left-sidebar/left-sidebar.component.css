@@ -3,6 +3,7 @@
     height: 100vh;
     position: fixed;
     background-color: #222a45;
+    overflow-y: auto;
 }
 
 .logo {
@@ -23,10 +24,23 @@
     margin-bottom: 0px;
 }
 
+.nav{
+    overflow-y:auto ;
+}
 .nav-item {
     display: flex;
     align-items: center;
     padding-left: 20px;
+    color: #fff;
+}
+
+.nav-item:hover{
+    background-color: #121c3c;
+}
+
+
+.nav-link{
+    color:#fff;
 }
 
 .bi {
